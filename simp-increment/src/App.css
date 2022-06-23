@@ -1,0 +1,14 @@
+body {
+    border-style: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 30px;
+}
