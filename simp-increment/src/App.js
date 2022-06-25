@@ -10,12 +10,17 @@ const increment = () => {
   setState(counter + 1)
 }
 
-  return(
-    <div>
-      <p>{counter}</p>
-      <button onClick={increment}>Increment</button>
-    </div>
-  )
+const decrement = () => {
+  setState(counter - 1)
+}
+
+return (
+  <div>
+    <p>{counter}</p>
+    <button onClick={increment}>Increment</button>
+    <button onClick={decrement}>Decrement</button>
+  </div>
+)
 }
 
 export default App;
